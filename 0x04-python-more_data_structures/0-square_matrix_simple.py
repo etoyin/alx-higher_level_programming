@@ -2,4 +2,5 @@
 def square_matrix_simple(matrix=[]):
 	if not matrix:
 		return None
-	return list(list(map(lambda a: a*a, num_list)) for num_list in matrix)
+	
+	return [[x**2 for x in i] for i in matrix]
