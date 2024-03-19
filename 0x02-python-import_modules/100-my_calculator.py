@@ -2,7 +2,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    import add, sub, mul, div from calculator_1
+    from calculator_1 import add, sub, mul, div
 
     n_args = len(sys.argv) - 1
     if n_args != 3:
