@@ -4,5 +4,4 @@ def square_matrix_simple(matrix=[]):
 	if not matrix:
 		return None
 	
-	return [[x**2 for x in i] for i in matrix]
-	
+	return [[x**2 for x in i] for i in matrix]	
